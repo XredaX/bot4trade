@@ -22,7 +22,7 @@ async def handlmsg(event):
         if chat_id == -1001516609917:
             print("Start")
             if 'TARGETS' in msg1 and '⛔️' in msg and 'BUY' in msg1:
-                await client2.send_message("AutoCopy_TradeBot", "USDT")
+                await client2.send_message(-1001516609917, "USDT")
                 time.sleep(1000)
 
                 a = 0
